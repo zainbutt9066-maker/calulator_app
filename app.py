@@ -134,7 +134,7 @@ with row4_cols[1]:
 with row4_cols[2]:
     st.button(".", on_click=append_to_expression, args=(".",), use_container_width=True)
 with row4_cols[3]:
-    st.button("+", on_click=append_to_expression, args=("+",), use_container_width=True)
+    st.button("ADD +", on_click=append_to_expression, args=("+",), use_container_width=True)
 
 # Create the equals button with a unique key for specific styling
 st.button("=", on_click=calculate_expression, use_container_width=True, key="equals_btn", type="primary")
